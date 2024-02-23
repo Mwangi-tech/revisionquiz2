@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    /*background: #001e4d;*/
+    background-color: rgba(0, 153, 255, 0.5);
+}
+p{
+    background: #fff;
+    display: inline-flex;
+    height: 70px;
+    width: 150px;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 30px;
+    border-radius: 50px;
+    margin-bottom: 0;
+    margin-left: 30%;
+    padding-top: 10px;
+    
+}
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 600px) {
+    /* Adjust styles for small screens */
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Adjust styles for medium screens */
+    body {
+        font-size: 16px;
+    }
+}
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 600px) {
+    /* Adjust styles for small screens */
+    app {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Adjust styles for medium screens */
+    app {
+        font-size: 16px;
+    }
+}
+
+
+.app{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1{
+    font-size: 25px; 
+    padding-bottom: 30px;
+    color: #12eb6c;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    text-align: center; 
+  }
+  .inst h2{
+    font-size: 15px;
+    color: #f3a6a6;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-align: center; 
+    padding-top: 2px;
+
+  }
+.quiz h3{
+    font-size: 20px;
+    color: #001e4d;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-align: center; 
+
+}
+.btn {
+    background: #fff;
+    color: #222;
+    font-weight: 700;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn {
+  background: #001e4d; 
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0; 
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+}
+.correct{
+    background: #4afc53;
+}
+.incorrect{
+    background: #fd0e0e;
+}
