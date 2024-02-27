@@ -166,8 +166,8 @@ const questions = [
     {
         question: "Which of the following is the SI unit of Electric current?",
         answers: [
-            {text: "A", correct: false},
-            {text: "Cd", correct: true},
+            {text: "A", correct: true},
+            {text: "Cd", correct: false},
             {text: "L", correct: false},
             {text: "k", correct: false},
             
